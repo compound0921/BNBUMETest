@@ -416,13 +416,13 @@ class AiAssistantController extends ChangeNotifier {
   }
 
   Future<void> initialize() {
-    final owner = _normalizedOwner;
-    if (owner == null) {
-      _error = '当前登录账号不可用。';
-      _loading = false;
-      _notify();
-      return Future<void>.value();
-    }
+    final owner = "test-001";
+    // if (owner == null) {
+    //   _error = '当前登录账号不可用。';
+    //   _loading = false;
+    //   _notify();
+    //   return Future<void>.value();
+    // }
     if (_owner != owner) {
       _resetForOwner(owner);
     }
