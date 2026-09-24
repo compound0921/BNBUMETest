@@ -416,7 +416,7 @@ class AiAssistantController extends ChangeNotifier {
   }
 
   Future<void> initialize() {
-    final owner = "test-001";
+    final owner = "test-002";
     // if (owner == null) {
     //   _error = '当前登录账号不可用。';
     //   _loading = false;
